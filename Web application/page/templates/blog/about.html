@@ -1,0 +1,120 @@
+
+<!-- about.html contains code to display all data on webpage -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19supplies</title>  <!-- title for webpage -->
+</head>
+
+
+<style>
+
+
+.gcontainer {          /* initializing gcontainer class */
+  display: grid;
+  position: center;
+
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;  /* total number of auto = number of columns */
+  grid-gap: 3px;
+  background-color: #02685b;
+  padding: 20px;
+}
+
+.gcontainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+
+
+</style>
+
+
+<body>
+
+<style>
+body {
+  background-image: url('https://i.ibb.co/YjjvYCP/Untitled-2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+    <picture>
+                 <a><img src="https://i.ibb.co/8x1pqj2/coviod2.png" alt="coviod2" border="0" /></a>
+                
+    </picture>
+
+   
+
+
+
+
+
+
+    {% for post in posts %}
+    <div class="gcontainer">
+        <div>
+        	<h5>Name</h5>
+         <h5>{{ post.NAME }}</h5>      
+        </div>
+          <div>
+          <h5>Medical</h5>  
+         <h5>{{ post.MEDICAL }}</h5>      
+        </div>
+        <div>
+          <h5>Address</h5>  
+         <h5>{{ post.ADDRESS1 }}</h5>      
+        </div>
+        <div>
+        	<h5>Phone</h5> 
+         <h5>{{ post.PHONE }}</h5>      
+        </div>
+        
+        <div>
+        	 <h5>Sanitiser</h5>
+         <h5>{{ post.SANITISER}}</h5>      
+        </div>
+        <div>
+        	<h5>Beds</h5>
+         <h5>{{ post.BEDS }}</h5>      
+        </div>
+        <div>
+        	<h5>Masks</h5>
+         <h5>{{ post.MASKS }}</h5>      
+        </div>
+        <div>
+        	 <h5>Vit-D</h5> 
+         <h5>{{ post.VITAMINC }}</h5>      
+        </div>
+        <div>
+        	<h5>Vit-B12</h5>
+         <h5>{{ post.VITAMINB12 }}</h5>      
+        </div>
+        <div>
+        	<h5>PPE</h5>
+         <h5>{{ post.PPE}}</h5>      
+        </div>
+        <div>
+        	<h5>Ventilator</h5>
+         <h5>{{ post.VENTILATOR}}</h5>      
+        </div>
+        <div>
+        	 <h5> Oxygenator </h5>
+         <h5> {{ post.OXYGENERATOR }}</h5>      
+        </div>
+       	<div>
+       		<h5>Surgicals</h5>  
+         <h5>{{ post.SURGICALS}}</h5>      
+        </div>
+
+        
+
+        </div>
+    {% endfor %}
+    
+</body>
+</html>
+

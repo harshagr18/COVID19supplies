@@ -1,0 +1,161 @@
+
+<!-- main webpage code to display list of medicine entered by user and filter according to the location -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVID-19supplies</title>
+</head>
+
+
+<style>
+
+.buttsub1 {/* Submit button */
+  background-color: #02685b;
+  border: black;
+  color: white;
+  position: absolute;
+  top: 505px;
+  left: 24%;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 2px;
+  opacity: 0.6;
+  width: 50%;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttsub1:hover {opacity: 6}
+
+
+
+.buttdb {/* database button */
+  background-color: #02685b;
+  border: black;
+  color: white;
+  position: absolute;
+  top: 85px;
+  left: 85%;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 2px;
+  opacity: 0.6;
+  width: 10%;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.buttdb:hover {opacity: 6}
+
+.gcontainer {/* below container */
+  display: grid;
+  position: center;
+
+  grid-template-columns: auto ;
+  grid-gap: 10px;
+  background-color: #02685b;
+  padding: 20px;
+}
+
+.gcontainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.gcontainertop {/* top container which contains loc and requirements */
+  display: grid;
+  position: center;
+
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #02685b;
+  padding: 20px;
+}
+
+.gcontainertop > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+input {
+  width: 60%;
+}
+</style>
+
+
+<body>
+
+<style>
+body {
+  background-image: url('https://i.ibb.co/YjjvYCP/Untitled-2.png');/* getting background image */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+    <picture>
+                 <a><img src="https://i.ibb.co/8x1pqj2/coviod2.png" alt="coviod2" border="0" /></a> <!-- getting Covid-19 supplies logo -->
+                
+    </picture>
+
+    
+
+
+
+
+<div class="gcontainertop">
+<div>
+<form method="post" enctype="multipart/form-data" action="/page/" >
+{% csrf_token %}
+<label for="Requirement" >Your Location  </label><br>
+<input type="text" id="Requirement" name="Loc"></input>  <!-- getting input from location-->
+<button class="buttsub1" type="submit">Submit</button>
+<br>
+<label for="Requirement"> Your Requirement:</label><br>
+<input type="text" id="Requirement" name="Requirements"></input> <!-- getting input from requirements -->
+<button class="buttsub1" type="submit">Submit</button>
+</form>
+</div>
+</div>
+
+<br>
+<br>
+</br>
+</br>
+<form method="post" enctype="multipart/form-data" action="/page/about/" >
+  {% csrf_token %}
+<button class="buttdb" type="submit">Database</button>
+</form>
+
+
+
+
+
+    {% for post in posts %} <!-- for number of elements in array of post -->
+    <div class="gcontainer">
+        <div>
+                <article class="media content-section">
+          <div class="media-body">
+            <h1><a class="article-title">Medical Name : {{ post.Medical }}</a></h1>   <!-- display medical name from dictionary -->
+            <div class="article-metadata">
+                    <h3>Total Number Available  : <I>{{ post.Count }}</I></h3>   <!-- display count value from dictionary -->
+              <small class="text-muted">Address : {{ post.Address }}</small>   <!-- display address from dictionary -->
+            </div>
+            <p class="article-content">Phone Number : {{ post.Phone }}</p>  <!-- display phone number from dictionary -->
+          </div>
+        </article>
+        </div>
+        </div>
+    {% endfor %}
+    
+</body>
+</html>
+
