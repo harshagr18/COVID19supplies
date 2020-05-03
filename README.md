@@ -55,7 +55,7 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 </div>
 
 <div align="center">
-<a href="https://youtu.be/dl6NbeQR7V0">E-Yantra Presentation Video</a>
+<a href="https://youtu.be/dl6NbeQR7V0">E-Yantra Presentation Video            </a>
 <a href="https://youtu.be/MmF-A-gY12Y">Demo Video</a>
 </div>
 
