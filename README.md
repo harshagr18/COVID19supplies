@@ -51,7 +51,7 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 
 <div align="center">
 
-<div align="center"> <a href="https://youtu.be/dl6NbeQR7V0"><img src="http://img.youtube.com/vi/dl6NbeQR7V0/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/dl6NbeQR7V0">E-Yantra Presentation Video</a> </div>
+<div align="center"> <a href="https://youtu.be/dl6NbeQR7V0"><img src="http://img.youtube.com/vi/dl6NbeQR7V0/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/dl6NbeQR7V0">E-Yantra Presentation Video</a> </div> <br><br>
 <div align="center"> <a href="https://youtu.be/MmF-A-gY12Y"><img src="http://img.youtube.com/vi/MmF-A-gY12Y/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/MmF-A-gY12Y">Demo Video</a></div>
 
 </div>
