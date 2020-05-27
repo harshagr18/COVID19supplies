@@ -1,7 +1,7 @@
 <div align="center">
 	<img src="images/logo.png" height="200" align="center">
 <br/>
-Medical supply monitoring tool for the Government of India (E-Yantra Covid Challenge 2020)
+Medical supply monitoring tool for the Government of India
 </div>
 
 ## About The Project
