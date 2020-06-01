@@ -15,7 +15,7 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
  - **Python user interface for medical stores and hospitals**
 	* All suppliers will register with a unique username and password which will be used to log into the system there after.
 	* The system is used to input data into the main database, directly from an excel sheet, which auto sorts required columns and eliminates the futile data. 
- - **Web servers**
+ - **Web servers for Users**
 	* This module solely caters to the common man who wants to purchase medical supplies. 
 	* Rather than searching multiple stores and increasing his risk of acquiring the COVID-19, he gets perfect information of availability and location of his medical supplies
 	* The user browses to "COVID-19supplies.in", and enters the location and required supply which will auto filter all the stores in his range, and give him most optimal store location. 
@@ -31,7 +31,6 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 	* A stable internet connection for accessibility.
  - **Server**
  	* A web service platform to update, compute and access data efficiently
- - **Heroku**
 
 
 ### Software Packages used 
