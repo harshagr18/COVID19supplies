@@ -5,18 +5,13 @@ Medical supply monitoring tool for the Government of India
 </div>
 
 ## About The Project
-<div align="center">
-<img src="images/about.png">
-</div>
-<br/>
 After a brief conversation with a WHO doctor, we aimed our project towards solving one of the major problems faced by all medical professionals and the common man alike, that is the inaccessibility of medical supplies due to inefficiency of data management. Supplies are available, but unfortunately what is lacking is the easy to access information on where exactly are they available. Our main focus while developing this system has been towards getting an accurate data at high computation speeds while ensuring maximum ease of access for the simplest of users.
 
 ### Architecture
 <div align="center">
-<img src="images/arch.png" align="center">
+<img src="images/arch.png" align="center" width="50%">
 </div>
 <br><br><br>
-<div align="center">
 
 ### Modules of the Project
  - **Python user interface for medical stores and hospitals**
@@ -46,10 +41,11 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 * Python - Tkinter user interface
 * SQLite3 Database
 
+<div align="center">
+
 ## YouTube Video
 
 <div align="center">
 
 <div align="center"> <a href="https://youtu.be/PGpbVCU7VZ8"><img src="http://img.youtube.com/vi/PGpbVCU7VZ8/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/MmF-A-gY12Y">Demonstration Video</a></div>
 <br><br>
-
