@@ -9,7 +9,7 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 
 ### Architecture
 <div align="center">
-<img src="images/arch.png" align="center" width="50%">
+<img src="images/arch.png" align="center">
 </div>
 <br><br><br>
 
