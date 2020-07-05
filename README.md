@@ -44,12 +44,11 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 <div align="center">
 
 ## YouTube Video
-
-<div align="center">
+</div>
 
 <div align="center"> <a href="https://youtu.be/PGpbVCU7VZ8"><img src="http://img.youtube.com/vi/PGpbVCU7VZ8/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/MmF-A-gY12Y">Demonstration Video</a></div>
 <br><br>
-</div>
+
 ## License
 
 	Copyright (C) 2020 Harsh Sanjay Agrawal
