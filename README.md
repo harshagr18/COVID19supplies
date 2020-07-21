@@ -46,7 +46,7 @@ After a brief conversation with a WHO doctor, we aimed our project towards solvi
 ## YouTube Video
 </div>
 
-<div align="center"> <a href="https://youtu.be/PGpbVCU7VZ8"><img src="http://img.youtube.com/vi/PGpbVCU7VZ8/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/PGpbVCU7VZ8">Demonstration Video</a></div>
+<div align="center"> <a href="https://youtu.be/cCuRLkp0KQ8"><img src="http://img.youtube.com/vi/cCuRLkp0KQ8/0.jpg" width="30%"></a> <br> <a href="https://youtu.be/cCuRLkp0KQ8">Demonstration Video</a></div>
 <br><br>
 
 ## License
